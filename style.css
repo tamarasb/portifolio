@@ -1,11 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 
 header{
     background-color: #d8e2dc;
-    font-size: large;
+    
 }
 
 header p{
@@ -42,12 +43,47 @@ header h1{
 
 #contato{
     text-align: center;
-    height: 30vh;
-    width: 600px;
+    height: fit-content;
+    min-width: none;
+    max-width: 50%;
     margin: auto;
     padding-top: 40px;
     border-radius: 8px;
-    background-color: #f08080;
+    background-color: #ffe5d9;
+    display: flexbox;
+}
+
+#contato input, label, textarea{
+    vertical-align: text-bottom;
+    margin-top: 16px;
+}
+
+label{
+    display: inline-table;
+    width: 15%;
+}
+
+#nome, #email, #mensagem{
+    width: 50%;
+}
+
+#mensagem{
+    vertical-align: top;
+}
+
+#btn-enviar{
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    border-style: none;
+    background-color: #9d8189;
+}
+
+hr{
+    margin: 16px;
 }
 
 footer{
