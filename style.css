@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #d8e2dc;
+    font-size: large;
+}
+
+header p{
+    width: 50%;
+    padding: 24px 24px 0px 24px;
+    margin: 0;
+}
+
+header a{
+    padding: 8px;
+    text-decoration: none;
+    color: #f08080;
+    border-radius: 2px;
+    border: 1px solid #f08080;
+}
+
+header div{
+    width: 100vw;
+    display: inline-flex;
+}
+
+#lang{
+    text-align: right;
+}
+
+#lang :focus{
+    background-color: #f08080;
+    color: #d8e2dc;
+}
+
+header h1{
+    padding: 0px 24px 8px 24px;
+}
+
+#contato{
+    text-align: center;
+    height: 30vh;
+    width: 600px;
+    margin: auto;
+    padding-top: 40px;
+    border-radius: 8px;
+    background-color: #f08080;
+}
+
+footer{
+    text-align: center;
+    
+}
